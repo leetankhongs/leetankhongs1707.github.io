@@ -1,0 +1,251 @@
+* {
+	box-sizing: border-box;
+	background-color: #F0EDED;
+	color: #898888
+}
+
+#header{
+	
+	margin: 20px 0 0 0;
+	overflow: auto;
+	position: relative;
+}
+#header p{
+	float: right;
+	margin-top: 1rem;
+    margin-bottom: 1rem;
+	font-size: 150%;
+}
+#content {
+	
+	background-size: cover;
+	margin: 50px 0;
+}
+#content h1{
+	
+	color: black;
+}
+#content #image{
+	background-size: cover;
+	text-align: center;
+	width: 100%;
+}
+#content #image img{
+	width: 100%;
+	background-size: cover;
+	margin: 20px 0;
+}
+#content #Give-it-a-try{
+	position: relative;
+	margin: 30px 0;
+	text-align: center;
+	position: relative;
+}
+#content #Give-it-a-try #button{
+	
+	-moz-box-shadow: 0px 50px 14px -20px #a3afd1;
+	-webkit-box-shadow: 0px 50px 14px -20px #a3afd1;
+	box-shadow: 0px 50px 14px -20px #a3afd1;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #039ef2), color-stop(1, #ffffff));
+	background:-moz-linear-gradient(top, #039ef2 5%, #ffffff 100%);
+	background:-webkit-linear-gradient(top, #039ef2 5%, #ffffff 100%);
+	background:-o-linear-gradient(top, #039ef2 5%, #ffffff 100%);
+	background:-ms-linear-gradient(top, #039ef2 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #039ef2 5%, #ffffff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#039ef2', endColorstr='#ffffff',GradientType=0);
+	background-color:#039ef2;
+	-moz-border-radius:35px;
+	-webkit-border-radius:35px;
+	border-radius:35px;
+	border:2px solid #b0c4ff;
+	display:inline-block;
+	cursor:pointer;
+	color:#1a141a;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 35px;
+	text-decoration:none;
+	margin: 50px 0;
+}
+#content #Give-it-a-try #button:hover{
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #039ef2));
+	background:-moz-linear-gradient(top, #ffffff 5%, #039ef2 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #039ef2 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #039ef2 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #039ef2 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #039ef2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#039ef2',GradientType=0);
+	background-color:#ffffff;
+}
+
+#content #Give-it-a-try #button:active {
+	position:relative;
+	top:1px;
+}
+#content #Give-it-a-try  #imgcheck{
+	margin-top: 10%;
+    color: #0F2AF5;
+}
+#content #Give-it-a-try  #check{
+	font-size: 80%;
+	margin-top: 70%;
+    color: #0F2AF5;
+	
+}
+#content #Give-it-a-try #imgcheckend{
+
+    color: #0F2AF5;
+}
+#content #Give-it-a-try #check-end{
+	margin-top: 50%;
+    color: #0F2AF5;
+}
+#content #list{
+}
+#content #list .row{
+}
+#content #list .row .col{
+	text-align: justify;
+}
+#content #list .row .col img{
+	float: left;
+	padding-bottom: 90px;
+	padding-right: 10px;
+}
+#content #list .row .col h4{
+	color: black;
+}
+#content #testimonials{
+	
+}
+#content #testimonials #See{
+	color: Blue;
+	
+}
+#content #testimonials #content-testimonials{
+	text-align: center;
+	padding: 30px;
+	border: 2px solid #919391;
+	border-radius: 5px;
+	background-color: #BAC1BA;
+}
+#content #testimonials #content-testimonials p{
+	background-color: #BAC1BA;
+}
+#bottom{
+	background-size: cover;
+}
+#bottom .row{
+	background-size: cover;
+}
+#bottom .row .col-md{
+	padding: 30px;
+	background-color: #959090;
+}
+#bottom .row .col-md p,h5{
+	background-color: #959090;
+	color: black;
+}
+#bottom .row .map img{
+	background-size: cover;
+	width: 100%;
+}
+
+#footer{
+	overflow: auto;
+}
+#footer p{
+	height: 40px;
+	background-color: #676565;
+	float: left;
+	font-size: 80%;
+	width: 50%;
+}
+#footer #footer-row
+{
+	position: relative;
+	width: 50%;
+	height: 40px;
+	background-color: #676565;
+	float: right;
+}
+#footer #footer-row ul{
+	text-align: right;
+	list-style-type: none
+}
+#footer #footer-row ul li{
+	background-color: #676565;
+	display: inline-table;
+	border-right: 2px solid black;
+	padding: 0 5px;
+	font-size: 80%;
+	
+
+}
+#footer p{
+	color: black;
+}
+
+a{
+	color: black;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-skype {
+  background: #827F7F;
+  color: white;
+}
+.fa-linkedin {
+  background: #827F7F;
+  color: white;
+}
+
+.fa-facebook {
+  background: #827F7F;
+  color: white;
+}
+.fa-youtube {
+  background: #827F7F;
+  color: white;
+}
+.fa-android {
+  background: #827F7F;
+  color: white;
+}
+.fa-tumblr {
+  background: #827F7F;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
