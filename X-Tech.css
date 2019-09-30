@@ -41,7 +41,7 @@
 	text-align: center;
 	position: relative;
 }
-#content #Give-it-a-try #button{
+button{
 	
 	-moz-box-shadow: 0px 50px 14px -20px #a3afd1;
 	-webkit-box-shadow: 0px 50px 14px -20px #a3afd1;
@@ -68,7 +68,13 @@
 	text-decoration:none;
 	margin: 50px 0;
 }
-#content #Give-it-a-try #button:hover{
+button span{
+	font-size: 150%;
+	color: black;
+	background-color:transparent;
+}
+
+button:hover{
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #039ef2));
 	background:-moz-linear-gradient(top, #ffffff 5%, #039ef2 100%);
 	background:-webkit-linear-gradient(top, #ffffff 5%, #039ef2 100%);
@@ -79,25 +85,31 @@
 	background-color:#ffffff;
 }
 
-#content #Give-it-a-try #button:active {
+
+button:active {
 	position:relative;
 	top:1px;
 }
 #content #Give-it-a-try  #imgcheck{
+	overflow: cover;
 	margin-top: 10%;
     color: #0F2AF5;
 }
 #content #Give-it-a-try  #check{
+	
+	overflow: cover;
 	font-size: 80%;
 	margin-top: 70%;
     color: #0F2AF5;
 	
 }
 #content #Give-it-a-try #imgcheckend{
+	overflow: cover;
 
     color: #0F2AF5;
 }
 #content #Give-it-a-try #check-end{
+	overflow: cover;
 	margin-top: 50%;
     color: #0F2AF5;
 }
@@ -117,9 +129,10 @@
 	color: black;
 }
 #content #testimonials{
+	margin-top: 20px;
 	
 }
-#content #testimonials #See{
+#content #testimonials #See i{
 	color: Blue;
 	
 }
